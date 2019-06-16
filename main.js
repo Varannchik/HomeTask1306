@@ -1,17 +1,14 @@
-let btn=document.querySelector('#btn');
 
-btn.addEventListener('click', value);
-
-function value(a){
-    a=document.querySelector('input').value;
+function time(a){    
     setTimeout(function (){
-       return a;        
+       console.log(a);
     },1000);
 }
 
 function ret(a,callback){
-    callback(a);
+    callback(a);    
 }
-ret(a,function(){
-    console.log(a);
-});
+ret(6,time);
+
+
+
