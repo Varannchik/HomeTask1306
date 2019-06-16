@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.container {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.container label {
+  text-align: center;
+  display: block;
+}
+
+.container input {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  line-height: 30px;
+  border: 1px solid green;
+  border-radius: 15px;
+  padding: 0 10px;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
